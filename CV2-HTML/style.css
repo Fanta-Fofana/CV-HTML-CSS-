@@ -1,0 +1,114 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+   }
+   .container
+   {
+       display: grid;
+       max-width: 900px;
+       max-height: 1500px;
+       margin: auto;
+   }
+   .haut
+   {
+       position: relative;
+       display: grid;
+       grid-template-columns: 1fr 2fr;
+       background-color: #94A6B2;
+       max-width: 900px;
+       max-height: 100%;
+   }
+   .haut img
+   {
+       position: relative;  
+       border-radius: 60%;
+       padding: 0px;
+       margin: 20px;
+       height: 200px;
+       width: 200px;
+       margin-left: 40px;
+       overflow: hidden;
+   }
+   .titre
+   {
+       position: relative;
+       padding-left: 35px;
+       max-width: 100%;
+       height: auto;
+       text-decoration: #353E4D;
+   }
+   .p1
+   {
+    position: absolute;
+   text-decoration: black;
+   padding-left: 250px;
+   height: auto;
+   max-width: 100%;
+   }
+   .bas
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 1000px;
+}
+.bas-left
+{
+    position: relative;
+    background-color: #353E4D;
+    width:217px;
+    max-width: 1000px;
+    padding: 30px;
+    padding-left: 0px;
+    padding-right: 40px;
+    min-height:900px ;
+}
+.container P
+{
+    padding-left: 15%;
+    color: #fff;
+}
+h3
+{
+    padding-left: 10%;
+    color: #fff;
+}
+.liste
+{
+    color: #fff;
+    padding-left: 10%;
+
+}
+h4
+{
+    padding-left: 10%;
+    color: #fff;
+}
+.bas-right
+{
+    margin: 5%;
+    position: relative;
+    background-color: white;
+}
+@media screen and (max-width: 1024px) and (min-width:1000px)
+{
+ .container
+ {
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  margin: 0px;
+  padding: 0px;
+ }
+}
+@media screen and (max-width: 1024px) and (min-width: 1000px)
+ {
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        padding: 0px;
+    }
+ }
